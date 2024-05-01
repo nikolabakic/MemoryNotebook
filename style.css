@@ -1,0 +1,26 @@
+* {
+  font-family: Roboto, arial, verdana;
+  color: whitesmoke;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.926);
+}
+/*<Box
+display="grid"
+gridTemplateColumns="repeat(12,1fr)"
+gridAutoRows="150px"
+gap="20px"
+>*/
+.grid-span {
+}
+.container {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(5, 1fr);
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border-style: solid;
+}
